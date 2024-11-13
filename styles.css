@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+  font-family: 'Orbitron', sans-serif;
+  color: #00ffc3;
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.main-container {
+  text-align: center;
+  width: 350px;
+  padding: 20px;
+  border: 2px solid #00ffc3;
+  border-radius: 8px;
+  background-color: #2a2a2a;
+}
+
+/* Cookie Area Styles */
+.cookie-area h1 {
+  color: #00ffc3;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+#cookie-count {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #f2f2f2;
+  text-shadow: 0px 0px 10px #00ffc3, 0px 0px 20px #00ffc3;
+}
+
+#cookies-per-second {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+#cookie-btn {
+  font-size: 4rem;
+  padding: 20px;
+  border: none;
+  background-color: #00ffc3;
+  color: #1a1a1a;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0px 4px 15px rgba(0, 255, 195, 0.4);
+  transition: transform 0.1s;
+}
+
+#cookie-btn:hover {
+  transform: scale(1.05);
+}
+
+/* Achievement Styles */
+#achievements {
+  margin-top: 10px;
+}
+
+.achievement-popup {
+  background-color: #333;
+  color: #00ffc3;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 5px;
+  font-size: 1rem;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.achievement-popup.active {
+  opacity: 1;
+}
+
+/* Production and Store Styles */
+.production-area, .store-area {
+  margin-top: 20px;
+}
+
+.production-item, .store-item {
+  font-size: 1.1rem;
+  margin: 5px 0;
+  background-color: #00ffc3;
+  color: #1a1a1a;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.production-item:hover, .store-item:hover {
+  background-color: #00e5b3;
+}
+
+/* Emoji Counter */
+.emoji-counter {
+  font-size: 1.1rem;
+  margin-left: 5px;
+}
+/* Credits Style */
+.credits {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #00ffc3;
+  text-align: center;
+  opacity: 0.8;
+  padding-top: 15px;
+  border-top: 1px solid #00ffc3;
+}

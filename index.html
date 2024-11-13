@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Cookie Clicker</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="main-container">
+    <!-- Cookie Clicker Area -->
+    <div class="cookie-area">
+      <h1>Cookie Clicker</h1>
+      <div id="cookie-count">0 cookies</div>
+      <div id="cookies-per-second">Cookies per second: 0</div>
+      <button id="cookie-btn">🍪</button>
+    </div>
+
+    <!-- Achievements Section -->
+    <div id="achievements"></div>
+
+    <!-- Production/Upgrade Area -->
+    <div class="production-area">
+      <h2>Production</h2>
+      <div class="production-list">
+        <div class="production-item" id="cursor">Cursor: <span class="emoji-counter">0</span> 🖱️</div>
+        <div class="production-item" id="grandma">Grandma: <span class="emoji-counter">0</span> 👵</div>
+        <div class="production-item" id="farm">Farm: <span class="emoji-counter">0</span> 🌾</div>
+      </div>
+    </div>
+
+    <!-- Store/Upgrades Section -->
+    <div class="store-area">
+      <h2>Store</h2>
+      <div class="store-list">
+        <button class="store-item" onclick="buyItem('cursor')">Buy Cursor - <span id="cursor-price">15</span> cookies</button>
+        <button class="store-item" onclick="buyItem('grandma')">Buy Grandma - <span id="grandma-price">100</span> cookies</button>
+        <button class="store-item" onclick="buyItem('farm')">Buy Farm - <span id="farm-price">500</span> cookies</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer with credits -->
+  <footer class="credits">
+    Developed by Nolan H.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
